@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Inter regular';
+    src: url('../fonts/Inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inter light';
+    src: url('../fonts/Inter/static/Inter-Light.ttf');
+}
+
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter light', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/* Navigation*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 10px 0px 10px 0px;
+}
+
+h1 {
+    padding: 1vh 1vw;
+    margin-right: auto;
+    margin-left: 3rem;
+    font-size: 20px;
+}
+
+header nav {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 1rem 3rem;
+    font-size: 17px;
+    letter-spacing: 2.5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(90, 86, 86);
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ----------------------beginn "Ich bin Kathi" */
+
+main section.flex_container_text {
+    background-color: white;
+    height: 500;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section div {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section p {
+    color: black;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+/*I'm Kathi*/
+main section h2 {
+    color: black;
+    font-size: 7rem;
+    padding: 1rem 2rem;
+}
+
+/*link*/
+main section div button {
+    margin-top: 40px;
+    padding: 8px 0px;
+    background-color: blanchedalmond;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: black;
+}
+
+main section div button:hover {
+    background-color: #dbb399;
+    color: white;
+}
+
+/* right_side_picture*/
+
+main section div img {
+    width: 30%;
+    max-width: 500px;
+}
+
+main section div img {
+    width: 100%;
+    background-size: cover;
+    box-shadow: 10px 30px 10px 0px;
+}
+
+/* Zweiter Abschnitt über mich*/
+
+main article {
+    height: 15vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+main article div.about_me_logo {
+    width: 300px;
+    height: 50px;
+    margin-right: 4rem;
+}
+
+main article div h3.about {
+    display: flex;
+    font-size: 4rem;
+}
+
+main article div h4.me {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4rem;
+    /* margin-right: 1rem; */
+}
+
+main article div.about_me_text p {
+    font-size: 2rem;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem auto;
+    margin-bottom: 4rem;
+}
+
+main article div.icons {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+main article div.icons img {
+    margin: 10px 30px 30px 0px;
+}
+
+/* Ende mit Icons/*
+/*Tech Stack*/
